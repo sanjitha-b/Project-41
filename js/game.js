@@ -56,7 +56,7 @@ class Game{
                      players[index - 1].y = y;
                        
                      if(index === player.index){
-                         
+                            fill("black")
                      text(allPlayers[plr].name,x-25,y+25)  
   
                          
